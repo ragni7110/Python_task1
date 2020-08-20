@@ -1,0 +1,30 @@
+import pyttsx3
+
+
+pyttsx3.speak("Welcome to python mobile customer care")
+pyttsx3.speak("Press 1 for any Complain")
+pyttsx3.speak("Press 2 to know your current plan ")
+pyttsx3.speak("Press 3 for prepaid details")
+pyttsx3.speak("Press 4 for postpaid details")
+pyttsx3.speak("Press 5 to exit")
+
+p=int(input("Enter the number:"))
+
+if p==1:
+   v=input("enter yr complain:")   
+   print("Thank you, your complain has been registered!")
+
+elif p==2:
+   print("Your current plan is of Rs.222")
+
+elif p==3:
+   print("Prepaid plans are: \n Rs.199- 300 mins,1GB/day,50 SMS/day uptp 28 days. \n Rs.499- 3000 mins,1.5GB/day,100 SMS/day upto 79 days" )
+
+elif p==4:
+   print("Postpaid plans are: \n Rs.499- 75GB/month, 100 SMS/day \n Rs.799-150 GB/month,100 SMS/day ")
+
+elif p==5:
+   quit()
+
+	
+	
